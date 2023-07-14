@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dancing ROBOT</title>
+</head>
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  } 
+  body{
+    background: radial-gradient(rgb(78, 78, 173),rgb(211, 84, 84),rgb(175, 175, 67));
+  }
+  h1{
+    text-align: center;
+  }
+  .container{
+     margin: 5% 45%;
+  }
+   .head{
+     background-color: rgb(86, 29, 177);
+     width: 100px;
+     height: 100px;
+     border-radius: 50% 50% 0% 0%;
+     margin: 10px;
+     margin-left: 15px;
+
+   }
+   .eye{
+    display: flex;
+    justify-content: space-around;
+   }
+    .eye1,.eye2{
+        margin-top: 20px;
+        background-color: black;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .eye1:hover{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+    .eye2:hover{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+
+    }
+    .body{
+        display: flex;
+        gap: 10px;
+    }
+    .body1{
+        width: 150px;
+        height: 100px;
+        background-color: aquamarine;
+        border-radius: 15px;
+    }
+    .body1{
+      transform: translateZ(360deg);
+    }
+    .hand1,.hand2{
+        width: 40px;
+        height: 100px;
+        background-color: orchid;
+        border-radius: 15px;
+    }
+    .hand1:hover{
+         transform: rotateZ(55deg);
+    }
+    .hand2:hover{
+      transform: rotateZ(-55deg);
+    }
+     .leg{
+        display: flex;
+        gap: 10px;
+        margin-left: 38px;
+        margin-top: 10px;
+     }
+     .leg1,.leg2{
+        height: 80px;
+        width: 25px;
+        background-color: blueviolet;
+        border-radius: 20px;
+     }
+     .leg1:hover{
+      transform: rotateZ(60deg);
+     }
+     .leg2:hover{
+      transform: rotateZ(60deg);
+     }
+  
+ 
+
+  </style>
+
+<body>
+     <h1>DANCING ROBOT </h1>
+     <div class="container">
+
+             <div class="robo">
+                      <div class="head">
+                           <div class="eye">
+                             <div class="eye1"></div>
+                             <div class="eye2"></div>
+                          </div>
+                      </div>
+
+                <div class="body">
+                    <div class="hand1"></div>
+                    <div class="body1"></div>
+                    <div class="hand2"></div>
+                    </div>
+                <div class="leg">
+                    <div class="leg1"></div>
+                    <div class="leg2"></div>
+                </div>   
+                
+                </div>
+
+             </div>
+</body>
+</html>
